@@ -4,7 +4,7 @@ A desire to create a standalone synthesizer that utilized software
 synthesis and a unique gestural input method led to the development of
 the airCV hardware platform.
 
-![The airCV hardware that was utilized to perform this piece.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airCV.jpg) 
+![The airCV hardware that was utilized to perform this piece.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airCV.ppg) 
 
 This device was realized during the semester and was completed just before this
 project began to take shape. In fact, a symbiosis of the two ideas
