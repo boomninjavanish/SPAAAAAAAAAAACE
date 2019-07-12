@@ -1,6 +1,8 @@
+SPAAAAAAAAAAACE: A RADIO WAVE'S JOURNEY TO THE CENTER OF THE UNIVERSE
+=====================================================================
 A desire to create a standalone synthesizer that utilized software
 synthesis and a unique gestural input method led to the development of
-the airSynth hardware platform (Figure  \[fig:airSynth\]). This device
+the airCV hardware platform [The airCV hardware that was utilized to perform this piece.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airCV.jpg). This device
 was realized during the semester and was completed just before this
 project began to take shape. In fact, a symbiosis of the two ideas
 formed as the class provided the tools necessary to create a custom
@@ -25,13 +27,11 @@ Hardware
 --------
 
 The hardware consists of two infrared distance sensors
-[@sharp-GP2Y0A21YK] that are connected to a Teensy 3.2 microcontroller
-[@teensy2012development]. The microcontroller has been programmed so
+(Sharp GP2Y0A21YK) that are connected to a Teensy 3.2 microcontroller. The microcontroller has been programmed so
 that it appears as a general MIDI controller device when plugged into
 the USB port of a computer. The code on the microcontroller works based
 on three events: an actuation point, a release point, and a measurement
-of the distance between the release point and the sensor (Figure
- \[fig:airSynthIRBeam\]). When the infrared distance sensor detects an
+of the distance between the release point and the sensor [Demonstration on how the sensor works.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airSynthIRBeam-01.jpg). When the infrared distance sensor detects an
 object reaching a certain distance towards it, the actuation point has
 been reached and a “note ON” message is sent via MIDI. As the object
 approaches the sensor, the values are read, converted to a value between
@@ -45,7 +45,7 @@ contains two momentary switches. When pressed, these buttons send a MIDI
 Initially, the goal was to make the hardware an all-in-one device that
 contained the midi controller along with a Raspberry Pi computer
 [@raspberrypi] that ran the Java software. This device, dubbed the
-airSynth, was created using a laser cut case that housed all of the
+airCV, was created using a laser cut case that housed all of the
 equipment discussed above. However, it was discovered during the
 composition process that the Raspberry Pi was not powerful enough to
 output all of the voices simultaneously. Therefore, the Raspberry Pi was
@@ -218,12 +218,12 @@ excellent auto-completion tools.
 Figures
 =======
 
-![\[fig:airSynth\]The airSynth
-hardware.](figures/airSynth.jpg){width="100.00000%"}
+![\[fig:airCV\]The airCV
+hardware.](figures/airCV.jpg){width="100.00000%"}
 
-![\[fig:airSynthIRBeam\]How the infrared sensors translate the user
+![\[fig:airCVIRBeam\]How the infrared sensors translate the user
 inputs into MIDI
-controls.](figures/airSynthIRBeam-01.jpg){width="100.00000%"}
+controls.](figures/airCVIRBeam-01.jpg){width="100.00000%"}
 
 ![\[fig:RadioStatic\]The RadioStatic voice in
 Syntona.](figures/RadioStatic.jpg){width="100.00000%"}
