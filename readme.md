@@ -1,5 +1,6 @@
 SPAAAAAAAAAAACE: A RADIO WAVE'S JOURNEY TO THE CENTER OF THE UNIVERSE
 =====================================================================
+[Click here to see a portions of the demo/performance.](https://www.youtube.com/watch?v=ZDqBOrc3LJ8)
 A desire to create a standalone synthesizer that utilized software
 synthesis and a unique gestural input method led to the development of
 the airCV hardware platform.
