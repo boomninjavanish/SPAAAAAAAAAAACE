@@ -6,7 +6,7 @@ A desire to create a standalone synthesizer that utilized software
 synthesis and a unique gestural input method led to the development of
 the airCV hardware platform.
 
-![The airCV hardware that was utilized to perform this piece.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airCV.png) 
+![The airCV hardware that was utilized to perform this piece.](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/airCV.png) 
 
 This device was realized during the semester and was completed just before this
 project began to take shape. In fact, a symbiosis of the two ideas
@@ -38,7 +38,7 @@ the USB port of a computer. The code on the microcontroller works based
 on three events: an actuation point, a release point, and a measurement
 of the distance between the release point and the sensor. 
 
-![Demonstration on how the sensor works.](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/airSynthIRBeam-01.jpg) 
+![Demonstration on how the sensor works.](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/airSynthIRBeam-01.jpg) 
 
 When the infrared distance sensor detects an
 object reaching a certain distance towards it, the actuation point has
@@ -81,21 +81,21 @@ adjusted externally. This creates a sound that emulates a radio that is
 attempting to hone in on a signal but never obtains a clear “lock” onto
 the signal.
 
-![Radio Static Jsyn/Syntona Patch](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/RadioStatic.jpg)
+![Radio Static Jsyn/Syntona Patch](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/RadioStatic.jpg)
 
 StarTwinkle mixes several sine
 and square wave unit generators with an adjustable delay for each stereo
 channel. With a quick attack and release time, it produces a slightly
 “glitched” sound in the higher registers. 
 
-![StarTwinkle Jsyn/Syntona Patch](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/StarTwinkle.jpg)
+![StarTwinkle Jsyn/Syntona Patch](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/StarTwinkle.jpg)
 
 RedShift utilizes a couple of red noise unit generators and a
 sine oscillator to modulate sine and saw waves. The resulting sound is a
 slightly noisy voice with several “whoop whoop” sounds that seemingly
 appear from nowhere. 
 
-![RedShift Jsyn/Syntona Patch](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/RedShift.jpg)
+![RedShift Jsyn/Syntona Patch](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/RedShift.jpg)
 
 The SuperSaw voice contains a series of saw oscillators that are placed in different, but
 slightly out-of-tune, octaves. In addition, two sine waves are used to
@@ -103,7 +103,7 @@ modulate the Q control on two low-pass filters. A multiplier can be
 adjusted externally to create more or less modulation. This voice has a
 rich sound that is reminiscent of a fat analog synthesizer.
 
-![SuperSaw Jsyn/Syntona Patch](https://github.com/boomninjavanish/media/blob/master/SPAAAAAAAAAAACE/SuperSaw.jpg)
+![SuperSaw Jsyn/Syntona Patch](https://raw.githubusercontent.com/boomninjavanish/media/master/SPAAAAAAAAAAACE/SuperSaw.jpg)
 
 ### Voice Controller
 
